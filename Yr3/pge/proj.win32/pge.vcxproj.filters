@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes">
+      <UniqueIdentifier>{91fe4cd5-d6dc-4ff0-8d2d-c3da5d346fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes\Main Menu">
+      <UniqueIdentifier>{4faa97c8-6057-4336-9681-6a022fb67969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes\Game">
+      <UniqueIdentifier>{c7e1f4b9-c415-4ca9-b4cb-4d28898e2412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Gameplay Elements">
+      <UniqueIdentifier>{9605605c-40ba-4f08-83f1-99a79d5a6992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Gameplay Elements\Gems">
+      <UniqueIdentifier>{a53bec3c-c581-46a1-8da2-275fb4231074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameBoard">
+      <UniqueIdentifier>{d826a0ed-7474-4384-8268-b2dc32e5ac81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\State Managing">
+      <UniqueIdentifier>{16d53b57-f05c-400b-93ce-3737327ce103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\State Managing\State Manager">
+      <UniqueIdentifier>{b932a122-4561-4000-97ce-424b2feb8226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\State Managing\States">
+      <UniqueIdentifier>{429fafc1-b5e2-4d4a-b623-30d169c9e155}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuScene.cpp">
+      <Filter>src\Scenes\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gems.cpp">
+      <Filter>src\Gameplay Elements\Gems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gameboard.cpp">
+      <Filter>src\GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StateManager.cpp">
+      <Filter>src\State Managing\State Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuScene.h">
+      <Filter>src\Scenes\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gems.h">
+      <Filter>src\Gameplay Elements\Gems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gameboard.h">
+      <Filter>src\GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StateManager.h">
+      <Filter>src\State Managing\State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\State.h">
+      <Filter>src\State Managing\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
